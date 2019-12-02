@@ -28,7 +28,7 @@ The repository's folder structure:
 directories for people that may not be aware of how they work.
 
 ---
-## Wait What?
+## How To Add To Your Modpack
 The folder structure is meant to show the exact location of the folders/files as they appear in the root
 directory of the minecraft instance. 
 
