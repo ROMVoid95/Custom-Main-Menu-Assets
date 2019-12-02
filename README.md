@@ -61,4 +61,5 @@ As you can see, this is where the folders in each modpack are located
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/ROMVoid95/Custom-Modpack-Assets/blob/master/LICENSE](MIT License)
+Feel free to contact me if you find any issues with this README.
+**Email:** 
