@@ -8,7 +8,7 @@
 
 <p align="center">
     <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/commits/master">
-    <img src="https://badgen.net/github/commits/ROMVoid95/Custom-Modpack-Assets/0.0.1"
+    <img src="https://badgen.net/github/commits/ROMVoid95/Custom-Modpack-Assets"
          alt="GitHub Commits">
     <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/blob/master/LICENSE">
     <img src="https://badgen.net/github/license/micromatch/micromatch"
