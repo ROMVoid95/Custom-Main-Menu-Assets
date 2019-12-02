@@ -1,8 +1,8 @@
 # Custom Modpack Assets
 > This is my collection of customized material used in Modpacks i have developed/co-developed
 
-## Mod Assets
-> The assets in this repository are used with the following mods
+## Mods Needed
+The assets in this repository are used with the following mods
 ```sh
 - Custom Main Menu 
 - Custom Loading Screen	
