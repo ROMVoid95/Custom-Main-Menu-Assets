@@ -1,0 +1,201 @@
+{
+   "images":{
+      "strip":{
+         "image":"menu:textures/strip.png",
+         "posX":50,
+         "posY":0,
+         "width":100,
+         "height":2000,
+         "alignment":"top_left"
+      },
+      "stripleft":{
+         "image":"menu:textures/stripsides.png",
+         "posX":48,
+         "posY":0,
+         "width":1,
+         "height":2000,
+         "alignment":"top_left"
+      },
+      "stripleftgrey":{
+         "image":"menu:textures/stripgrey.png",
+         "posX":49,
+         "posY":0,
+         "width":1,
+         "height":2000,
+         "alignment":"top_left"
+      },
+      "stripright":{
+         "image":"menu:textures/stripsides.png",
+         "posX":151,
+         "posY":0,
+         "width":1,
+         "height":2000,
+         "alignment":"top_left"
+      },
+      "striprightgrey":{
+         "image":"menu:textures/stripgrey.png",
+         "posX":150,
+         "posY":0,
+         "width":1,
+         "height":2000,
+         "alignment":"top_left"
+      },
+      "imagelogo":{
+         "image":"menu:textures/TitleScreen.png",
+         "posX":50,
+         "posY":10,
+         "width":100,
+         "height":100,
+         "alignment":"top_left"
+      },
+		"menulabel":{
+			"image":"menu:textures/mt_op.png",
+			"posX":50,
+			"posY":35,
+			"width":100,
+			"height":100,
+			"alignment":"top_left"
+      }
+   },
+   "buttons":{
+      "options":{
+         "text":"Game Options",
+         "texture":"menu:textures/buttons.png",
+         "posX":55,
+         "posY":-40,
+         "width":90,
+         "height":20,
+         "tooltip":"Change game options",
+         "alignment":"left_center",
+         "action":{
+            "type":"openGui",
+            "gui":"options"
+         }
+      },
+      "mods":{
+         "text":"Mod Options",
+         "texture":"menu:textures/buttons.png",
+         "posX":55,
+         "posY":-18,
+         "width":90,
+         "height":20,
+         "tooltip":"Change mod options",
+         "alignment":"left_center",
+         "action":{
+            "type":"openGui",
+            "gui":"mods"
+         }
+      },
+      "lang":{
+         "text":"Language",
+         "texture":"menu:textures/buttons.png",
+         "posX":55,
+         "posY":4,
+         "width":90,
+         "height":20,
+         "tooltip":"Language Settings",
+         "alignment":"left_center",
+         "action":
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+      },	  
+      "back":{
+         "text":"Back",
+         "texture":"menu:textures/back.png",
+         "posX":55,
+         "posY":70,
+         "width":90,
+         "height":20,
+         "alignment":"left_center",
+         "action":{
+            "type":"openGui",
+            "gui":"custom.mainmenu"
+         }
+      },
+      "reset":{
+         "text":"Reset",
+         "texture":"menu:textures/sponsor_button.png",
+         "posX":-123,
+         "posY":-44,
+         "width":120,
+         "height":20,
+         "tooltip":"Reset Menu",
+         "alignment":"bottom_right",
+         "action" : 
+			{
+                "type" : "refresh"
+            }
+      },
+      "quit":{
+         "text":"Quit Game",
+         "texture":"menu:textures/quitbutton.png",
+         "hoverTextColor":-1,
+         "posX":55,
+         "posY":-25,
+         "width":90,
+         "height":20,
+         "hoverText":"Are You Sure?!?",
+         "alignment":"bottom_left",
+         "action":{
+            "type":"quit"
+         }
+      },
+      "clock":{
+         "text":"#time# #date#",
+         "posX":0,
+         "posY":17,
+         "width":90,
+         "height":0,
+         "alignment":"top_center"
+      },
+      "version":{
+         "text":"file:menu:text/version.txt",
+         "posX":0,
+         "posY":-17,
+         "width":90,
+         "height":0,
+         "alignment":"bottom_center"
+      },
+      "mods_loaded":{
+         "text":"#modsloaded# Mods Loaded",
+         "posX":55,
+         "posY":-30,
+         "width":90,
+         "height":0,
+         "alignment":"bottom_left"
+      }
+   },
+   "labels":{
+      "tips":{
+         "text":[
+            "Tip: Pressing 'L' will toggle the light level overlay.",
+            "Tip: Pressing 'C' will toggle viewing chunk borders and edges.",
+            "Tip: Restore local backups from single player world load screen.",
+            "Tip: Type 'mining level' in JEI to show tool mining levels.",
+            "Tip: Press 'Ctrl' + 'R' to show a different Tip!",
+            "Tip: Always remember to take breaks when gaming!",
+            "Tip: The pack ships with optimal graphics options already set.",
+            "Tip: Build horizontally not vertically to help performance.",
+            "Tip: Pressing 'Q' will drop your currently held item on the ground.",
+            "Tip: A server.properties file can be found in every world folder."
+         ],
+         "posX":160,
+         "posY":-61,
+         "width":90,
+         "height":0,
+         "color":-75,
+         "alignment":"bottom_left"
+      }
+   },
+   "other":{
+      "background":{
+         "image":"",
+         "mode":"stretch",
+         "slideshow":{
+            "synced":true
+         }
+      }
+   }
+}

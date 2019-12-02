@@ -1,0 +1,14 @@
+customloadingscreen.modstate.minecraft_init=Terra Coming Online
+customloadingscreen.modstate.construction=Constructing Terra
+customloadingscreen.modstate.pre_initialization=Terra Pre-Initialization Sequence
+customloadingscreen.modstate.initialization=Terra Initialization Sequence
+customloadingscreen.modstate.post_initialization=Terra Post Initialization Sequence
+customloadingscreen.modstate.completed=Terra is Reborn
+customloadingscreen.modstate.reloading_resource_packs=Loading Custom Resources
+customloadingscreen.mcstate.modelloader.items=Loading Things
+customloadingscreen.mcstate.modelloader.blocks=Loading Stuff
+customloadingscreen.mcstate.modelloader.bake=Doing Crap With Models
+customloadingscreen.mcstate.texture.load=blah blah Textures
+customloadingscreen.mcstate.texture.stitch=Lord Textures Suck
+customloadingscreen.loading=Loading
+customloadingscreen.finishing=Finally, Took Long Enough
