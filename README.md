@@ -1,5 +1,37 @@
-# Custom Modpack Assets
-> This is my collection of customized material used in Modpacks i have developed/co-developed
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/archive/master.zip"><img src="https://github.com/ROMVoid95/Custom-Modpack-Assets/blob/master/rcma.png?raw=true" alt=""></a>
+</h1>
+
+<h4 align="center">Custom Assets To Use In Any Modpack</h4>
+
+<p align="center">
+    <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/commits/master">
+    <img src="https://badgen.net/github/commits/ROMVoid95/Custom-Modpack-Assets/0.0.1"
+         alt="GitHub Commits">
+    <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/blob/master/LICENSE">
+    <img src="https://badgen.net/github/license/micromatch/micromatch"
+         alt="MIT License">
+    <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/archive/0.0.1.zip">
+    <img src="https://badgen.net/badge/Download/Click%20Here/orange"
+         alt="Download">
+    <a href="">
+    <img src="https://badgen.net/badge/Made%20With/Love/pink"
+         alt="Made With love">
+</p>
+      
+<p align="center">
+  <a href="#mods-needed">Mods Needed</a> •
+  <a href="#usage-example">Usage example</a> •
+  <a href="#how-to-add-to-your-modpack">How To Add To Your Modpack</a> •
+  <a href="#file-extensions">File Extensions</a> •
+  <a href="#release-history">Release History</a> •
+  <a href="#license">License</a>
+</p>
+
+---
+
 
 ## Mods Needed
 The assets in this repository are used with the following mods
@@ -29,18 +61,22 @@ directories for people that may not be aware of how they work.
 
 ---
 ## How To Add To Your Modpack
-The folder structure is meant to show the exact location of the folders/files as they appear in the root
-directory of the minecraft instance. 
+**One** Download the Repository (or fork it)
 
-*for example*
-The following is the root directory of the Enigmatica 2 Expert modpack
+**Two** Unzip The .zip folder after download is complete
 
-![](rootdirectory.jpg)
+**Three** Copy folders / or wanted content
+
+**Four** Paste into your modpacks directory (overwrite only if you dont want your old files)
+
+
+![](install.gif)
 
 As you can see, this is where the folders in each modpack are located 
 (all other folders in the picture may or not be present in your modpack)
 
 ---
+
 ## File Extensions
    file extensions may be different for certain files.
 
@@ -59,7 +95,7 @@ As you can see, this is where the folders in each modpack are located
 
 ## License
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-Feel free to contact me if you find any issues with this README.
-**Email:** 
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2019 © ROMVoid
