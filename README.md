@@ -27,8 +27,8 @@ The repository's folder structure:
 **(...)** means more folders or files may be present, this is meant to show the basic structure of the 
 directories for people that may not be aware of how they work.
 
-### Wait What?
-
+---
+## Wait What?
 The folder structure is meant to show the exact location of the folders/files as they appear in the root
 directory of the minecraft instance. 
 
@@ -40,9 +40,9 @@ The following is the root directory of the Enigmatica 2 Expert modpack
 As you can see, this is where the folders in each modpack are located 
 (all other folders in the picture may or not be present in your modpack)
 
-
-### File Extensions
-> file extensions may be different for certain files.
+---
+## File Extensions
+   file extensions may be different for certain files.
 
 **<*filename*>.cfg** 
 
