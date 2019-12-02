@@ -11,19 +11,33 @@
 ## Usage example
 
 The repository's folder structure:
-	- <Modpack Name>
-		- configs
-			- <mod_config_folder> *if it has one*
-				- <config file>.cfg *if it has one*
-			- mod_config_file.cfg
-		- resources
-			- <resource_folder>
-				... *any folder/file that follows*
-				
+```bash
+├───<MODPACK_NAME>
+│   ├───config
+│   │   ├───<folder_name>
+│	│	│	└───<filename>.cfg
+│	│   └───<filename>.cfg
+│	│
+│   └───resources
+│       ├───<folder_name>
+│       │   └───<filename>.png
+│       │   └───(...)
+│		└───(...)
+```
+**(...)** means more folders or files may be present, this is meant to show the basic structure of the 
+directories for people that may not be aware of how they work.
+
 ### Wait What?
 
 The folder structure is meant to show the exact location of the folders/files as they appear in the root
 directory of the minecraft instance. 
+
+#### File Extensions
+> file extensions may be different for certain files.
+>> <*filename*>.cfg -> cfg may be *.json .ini .properties*
+>> <*filename*>.png -> png may be *.jpg or even .psd* <- very uncommon, normally is *.png
+
+
 *for example*
 The following is the root directory of the Enigmatica 2 Expert modpack
 ![](rootdirectory.jpg)
