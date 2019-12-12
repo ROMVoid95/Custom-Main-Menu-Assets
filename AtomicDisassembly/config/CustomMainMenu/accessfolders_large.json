@@ -1,4 +1,4 @@
-{
+s{
    "images":{
       "strip":{
          "image":"mainmenu:textures/container.png",
@@ -51,7 +51,7 @@
          "action":
 			{
                 "type" : "connectToServer",
-                "ip" : "play.terrastudios.co:25565"			
+                "ip" : "locahost"			
 			}
       },
       "configs":{

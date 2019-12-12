@@ -132,7 +132,7 @@
          "action":
 			{
                 "type" : "connectToServer",
-                "ip" : "play.terrastudios.co:25565"			
+                "ip" : "locahost"			
 			}
       },
       "version":{

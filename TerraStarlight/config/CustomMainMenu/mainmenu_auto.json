@@ -61,7 +61,7 @@
             "action" : 
 			{
                 "type" : "connectToServer",
-                "ip" : "starlight.terrastudios.co:25565"			
+                "ip" : "localhost"			
 			}
         },
 		
@@ -81,7 +81,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/K3SSAjp"
+                "link" : "ENTER LINK HERE"
             }
         },
 		"multiplayer":

@@ -70,7 +70,7 @@
          "alignment":"left_center",
          "action":{
             "type":"openLink",
-            "link":"https://github.com/ROMVoid95/TerraReborn/issues/new"
+            "link":"ENTER LINK HERE"
          }
       },
       "dsurroundhelp":{
@@ -98,7 +98,7 @@
          "alignment":"left_center",
          "action":{
             "type":"openLink",
-            "link":"https://www.curseforge.com/minecraft/modpacks/terra-reborn/pages/modpack-info/wiki"
+            "link":"ENTER LINK HERE"
          }
       },
       "performanceguide":{
@@ -112,7 +112,7 @@
          "alignment":"left_center",
          "action":{
             "type":"openLink",
-            "link":"https://www.curseforge.com/minecraft/modpacks/terra-reborn/pages/modpack-info/performanceguide"
+            "link":"ENTER LINK HERE"
          }
       },
       "back":{
