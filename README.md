@@ -69,6 +69,8 @@ directories for people that may not be aware of how they work.
 
 **Four** Paste into your modpacks directory (overwrite only if you dont want your old files)
 
+**Five** Make sure to add any links into the config files for CustomMainMenu that require links
+
 
 ![](install.gif)
 
