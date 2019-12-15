@@ -13,7 +13,7 @@
     <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/blob/master/LICENSE">
     <img src="https://badgen.net/github/license/micromatch/micromatch"
          alt="MIT License">
-    <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/archive/0.0.1.zip">
+    <a href="https://github.com/ROMVoid95/Custom-Modpack-Assets/archive/0.0.2.zip">
     <img src="https://badgen.net/badge/Download/Click%20Here/orange"
          alt="Download">
     <a href="">
