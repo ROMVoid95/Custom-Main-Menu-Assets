@@ -1,0 +1,125 @@
+{
+   "images":{
+      "strip":{
+         "image":"mainmenu:textures/container.png",
+         "posX":-400,
+         "posY":39,
+         "width":1000,
+         "height":23,
+         "alignment":"top_center"
+      },
+	  "logo":{
+         "image":"mainmenu:textures/logo.png",
+         "posX":-190,
+         "posY":1,
+         "width":350,
+         "height":35,
+         "alignment":"top_center"
+      }
+   },
+   "buttons":{
+      "singleplayer":{
+         "text":"",
+         "texture":"mainmenu:textures/singleplayer.png",
+         "posX":-195,
+         "posY":42,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "alignment":"top_center",
+         "action":{
+            "type":"openGui",
+            "gui":"singleplayer"
+         }
+      },
+      "multiplayer":{
+         "text":"",
+         "texture":"mainmenu:textures/multiplayer.png",
+         "posX":-85,
+         "posY":42,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "alignment":"top_center",
+         "action":{
+            "type":"openGui",
+            "gui":"multiplayer"
+         }
+      },
+      "options":{
+         "text":"",
+         "texture":"mainmenu:textures/options.png",
+         "posX":10,
+         "posY":42,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "alignment":"top_center",
+         "action":{
+            "type":"openGui",
+            "gui":"custom.options"
+         }
+      },
+      "fileaccess":{
+         "text":"",
+         "texture":"mainmenu:textures/folderlinks.png",
+         "posX":110,
+         "posY":42,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "alignment":"top_center",
+         "action":{
+            "type":"openGui",
+            "gui":"custom.accessfolders"
+         }
+      },
+	  "tip":{
+         "text":"Exit",
+         "texture":"mainmenu:textures/inv.png",
+         "posX":215,
+         "posY":44,
+         "width" : 12,
+         "height" : 15,
+         "alignment":"top_center",
+         "action" : 
+			{
+                "type":"quit"
+            }
+      },
+      "discord":{
+		 "text" : "",
+         "texture" : "mainmenu:textures/disc.png",
+         "posX":187,
+         "posY": 43,
+         "width" : 12,
+         "height" : 15,
+		 "imageWidth" : 263,
+         "imageHeight" : 300,
+         "alignment" : "top_center",
+		"action" :{
+		     "type" : "openLink",
+			 "link" : "https://discord.gg/zur7Zs8"
+			}
+		}
+   },
+      "labels":{
+		"tips":{
+         "text":"web:https://raw.githubusercontent.com/ROMVoid95/Scepter-5-Kingdoms/master/b1.3.1",
+         "posX":-50,
+         "posY":-20,
+         "alignment":"bottom_center"
+      }
+   },
+   "other":{
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.jpg",
+			"mode" : "stretch"
+		}
+   }
+}

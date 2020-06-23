@@ -1,0 +1,101 @@
+{
+   "images":{
+	  "logo":{
+         "image":"mainmenu:textures/logo.png",
+         "posX":-320,
+         "posY":15,
+         "width":650,
+         "height":65,
+         "alignment":"top_center"
+      }
+   },
+   "buttons":{
+      "singleplayer":{
+         "text":"",
+         "texture":"mainmenu:textures/sp.png",
+         "posX":-170,
+         "posY":-120,
+         "width":128,
+         "height":128,
+		 "imageWidth":180,
+		 "imageHeight":180,
+
+         "alignment":"bottom_center",
+         "action":{
+            "type":"openGui",
+            "gui":"singleplayer"
+         }
+      },
+      "multiplayer":{
+         "text":"",
+         "texture":"mainmenu:textures/mp.png",
+         "posX":50,
+         "posY":-120,
+         "width":128,
+         "height":128,
+		 "imageWidth":180,
+		 "imageHeight":180,
+	 
+         "alignment":"bottom_center",
+         "action":{
+            "type":"openGui",
+            "gui":"multiplayer"
+         }
+      },
+      "options":{
+         "text":"",
+         "texture":"mainmenu:textures/gear.png",
+         "posX":350,
+         "posY":10,
+         "width":50,
+         "height":50,
+		 "imageWidth":128,
+		 "imageHeight":128,
+
+         "alignment":"top_center",
+         "action":{
+            "type":"openGui",
+            "gui":"custom.options"
+         }
+      },
+	  "exit":{
+         "text":"",
+         "texture":"mainmenu:textures/exit.png",
+         "posX":350,
+         "posY":-50,
+         "width" : 40,
+         "height" : 40,
+		 "imageWidth":128,
+		 "imageHeight":128,
+
+         "alignment":"bottom_center",
+         "action" : 
+			{
+                "type":"quit"
+            }
+      },
+      "discord":{
+		 "text" : "",
+         "texture" : "mainmenu:textures/disc.png",
+         "posX":310,
+         "posY": 45,
+         "width" : 22,
+         "height" : 25,
+		 "imageWidth" : 263,
+         "imageHeight" : 300,
+
+         "alignment" : "top_center",
+		"action" :{
+		     "type" : "openLink",
+			 "link" : "https://discord.gg/zur7Zs8"
+			}
+		}
+   },
+   "other":{
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.jpg",
+			"mode" : "stretch"
+		}
+   }
+}

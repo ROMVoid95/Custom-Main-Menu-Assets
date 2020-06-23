@@ -1,0 +1,129 @@
+{
+   "images":{
+      "strip":{
+         "image":"mainmenu:textures/container.png",
+         "posX":-400,
+         "posY":39,
+         "width":1000,
+         "height":23,
+         "alignment":"top_center"
+      },
+	  "logo":{
+         "image":"mainmenu:textures/logo.png",
+         "posX":-190,
+         "posY":1,
+         "width":350,
+         "height":35,
+         "alignment":"top_center"
+      }
+   },
+   "buttons":{
+      "worlds":{
+         "text":"",
+         "texture":"mainmenu:textures/worlds.png",
+         "posX":-195,
+         "posY":43,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "tooltip":"Opens saves/ folder",
+         "alignment":"top_center",         
+		 "action":{
+            "type":"openFolder",
+            "folderName":"saves"
+         }
+      },
+      "configs":{
+         "text":"",
+         "texture":"mainmenu:textures/configs.png",
+         "posX":-120,
+         "posY":43,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "tooltip":"Opens configs/ folder",
+         "alignment":"top_center",         
+		 "action":{
+            "type":"openFolder",
+            "folderName":"config"
+         }
+      },
+      "logs":{
+         "text":"",
+         "texture":"mainmenu:textures/logs.png",
+         "posX":-50,
+         "posY":43,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "tooltip":"Opens logs/ folder",
+         "alignment":"top_center",         
+		 "action":{
+            "type":"openFolder",
+            "folderName":"logs"
+         }
+      },
+	  "crashlogs":{
+         "text":"",
+         "texture":"mainmenu:textures/crashlogs.png",
+         "posX":30,
+         "posY":43,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "tooltip":"Opens crash-reports/ folder",
+         "alignment":"top_center",         
+		 "action":{
+            "type":"openFolder",
+            "folderName":"crash-reports"
+         }
+      },
+      "back":{
+         "text":"",
+         "texture":"mainmenu:textures/back.png",
+         "posX":150,
+         "posY":43,
+         "width":65,
+         "height":16,
+		 "imageWidth":180,
+		 "imageHeight":40;
+         "alignment":"top_center",         
+		 "action":{
+            "type":"openGui",
+            "gui":"custom.mainmenu"
+         }
+      },
+	  "tip":{
+         "text":"Exit",
+         "texture":"mainmenu:textures/inv.png",
+         "posX":215,
+         "posY":44,
+         "width" : 12,
+         "height" : 15,
+         "alignment":"top_center",
+         "action" : 
+			{
+                "type":"quit"
+            }
+      }
+   },
+      "labels":{
+		"tips":{
+         "text":"web:https://raw.githubusercontent.com/ROMVoid95/Scepter-5-Kingdoms/master/b1.3.1",
+         "posX": 20,
+         "posY":-20,
+         "alignment":"bottom_center"
+      }
+   },
+   "other":{
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.jpg",
+			"mode" : "stretch"
+		}
+   }
+}
